@@ -34,8 +34,8 @@
     {
       "scope": "meta.function.definition.elixir keyword.control",
       "settings": {
-        "foreground": "#252525",
-        "fontStyle": "italic"
+        "foreground": "#3b3b3b",
+        "fontStyle": ""
       }
     },
     {
