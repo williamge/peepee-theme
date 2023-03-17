@@ -1,16 +1,24 @@
-# wg-theme README
+# peepee-theme README
 
-## Working with Markdown
+Simple colour theme for VSCode.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Uses colour values from https://github.com/jan-warchol/selenized
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Basic ideas:
+- hide what doesn't need to be read, e.g. `defp` for  `defp method_name` in languages like Elixir
+- create typographic hierarchies
+    - e.g. bold method names when they're being defined, but regular weight method names when called
+    - italicize constants, properties, and background information
+    - strike-out unused variables, and other code that should be implied to be unused/unneeded
+    - `return`s are bold to denote importance
+- create colour relationships
+    - regular code is a bright foreground white
+    - distinguish "types" of code with visually separate colours
+        - modules and methods called on modules are different shades of calming blue
+        - constants are orange
+        - strings are green
+        - attributes are pink
+    - control code is grey to recede a bit in to the background
+    - unimportant details (e.g. `defp`) are a dark grey to almost disappear
 
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+The theme should make it easier to read the code that's important, and easier to ignore code that's not as important.

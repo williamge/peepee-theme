@@ -5,8 +5,11 @@
     "activityBarBadge.background": "#007acc",
     "editor.background": "#181818",
     "editor.foreground": "#b9b9b9",
-    "editor.inactiveSelectionBackground": "#3a3d41",
-    "editor.selectionHighlightBackground": "#add6ff26",
+    "editor.selectionBackground": "#184956",
+    "editor.inactiveSelectionBackground": "#103c48",
+    "editor.selectionHighlightBackground": "#b9b9b9",
+    "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+    "editor.findMatchHighlightBackground": "#3b3b3b", //Other SEARCH MATCHES
     "editorBracketMatch.background": "#249024",
     "editorIndentGuide.background": "#404040",
     "list.dropBackground": "#383b3d",
@@ -20,7 +23,7 @@
   "tokenColors": [
     // Base
     {
-      "scope": "source.elixir",
+      "scope": "source",
       "settings": {
         "foreground": "#dedede"
         // "foreground": "#ed4a46"
@@ -31,6 +34,13 @@
     {
       "scope": "meta.function.definition.elixir keyword.control",
       "settings": {
+        "foreground": "#252525",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "storage.type",
+      "settings": {
         "foreground": "#3b3b3b",
         "fontStyle": "italic"
       }
@@ -39,32 +49,54 @@
       "scope": "keyword.control",
       "settings": {
         "foreground": "#777777",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "keyword.control.flow",
+      "settings": {
+        "foreground": "#777777",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": "keyword.other.special-method.elixir",
+      "scope": [
+        "keyword.other.special-method.elixir",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.type",
+        "storage.type.type"
+      ],
       "settings": {
         "foreground": "#eb6eb7"
       }
     },
     {
-      "scope": "entity.name.function.elixir",
+      "scope": [
+        "entity.name.function.elixir",
+        "meta.definition.variable entity.name.function",
+        "entity.name.type"
+      ],
       "settings": {
-        "foreground": "#3fc5b7",
+        "foreground": "#56d8c9",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": "entity.name.function-call.elixir",
+      "scope": [
+        "entity.name.function-call.elixir",
+        "meta.function-call",
+        "variable.other.property"
+      ],
       "settings": {
-        "foreground": "#56d8c9"
+        "foreground": "#56d8c9",
+        "fontStyle": ""
       }
     },
     {
       "scope": "parameter.variable.function.elixir",
       "settings": {
-        "foreground": "#b9b9b9"
+        "foreground": "#dedede"
       }
     },
     {
@@ -73,20 +105,29 @@
         "foreground": "#ed4a46"
       }
     },
-    // Modules
+    // Modules/Variables
     {
-      "scope": "variable.other.constant.elixir",
+      "scope": [
+        "variable.other.constant.elixir",
+        "variable.other",
+        "support.class.component"
+      ],
       "settings": {
-        "foreground": "#4f9cfe"
+        "foreground": "#4f9cfe",
+        "fontStyle": ""
       }
     },
     {
-      "scope": "variable.language.elixir",
+      "scope": [
+        "variable.language.elixir",
+        "meta.definition.variable variable.other.constant"
+      ],
       "settings": {
         "foreground": "#368aeb",
         "fontStyle": "italic"
       }
     },
+    // Modules
     {
       "scope": "entity.name.type.module.elixir",
       "settings": {
@@ -105,35 +146,57 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#a580e2",
+        // "foreground": "#a580e2",
+        "foreground": "#777777",
         "fontStyle": ""
       }
     },
     {
-      "scope": "keyword.operator.assignment.elixir",
+      "scope": [
+        "keyword.operator.assignment.elixir",
+        "keyword.operator.comparison"
+      ],
       "settings": {
         "foreground": "#b891f5",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": "constant.language.symbol.elixir",
+      "scope": [
+        "constant.language.symbol.elixir",
+        "meta.object-literal",
+        "meta.tag.attributes",
+        "variable.object.property",
+        "support.type.property-name"
+      ],
       "settings": {
-        "foreground": "#777777",
+        "foreground": "#b9b9b9",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": "constant.language.elixir",
+      "scope": [
+        "constant.language",
+        "constant.language.elixir",
+        "constant.language.null",
+        "constant.language.boolean"
+      ],
       "settings": {
         "foreground": "#e67f43",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": "constant.numeric.elixir",
+      "scope": ["constant.language.boolean.true"],
       "settings": {
-        "foreground": "#e67f43"
+        "foreground": "#fa9153"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#e67f43",
+        "fontStyle": ""
       }
     },
     {
@@ -141,6 +204,12 @@
       "settings": {
         // "foreground": "#51616D",
         "foreground": "#777777"
+      }
+    },
+    {
+      "scope": ["punctuation", "meta.brace"],
+      "settings": {
+        "fontStyle": ""
       }
     },
     {
@@ -159,7 +228,7 @@
     {
       "scope": "variable.other.readwrite.module.elixir",
       "settings": {
-        "foreground": "#dbb32d",
+        "foreground": "#eb6eb7",
         "fontStyle": ""
       }
     },
@@ -183,13 +252,22 @@
       }
     },
     {
-      "scope": "string.quoted.double.elixir",
+      "scope": "string.quoted.double",
       "settings": {
-        "foreground": "#70b433"
+        "foreground": "#70b433",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "string.quoted.single",
+      "settings": {
+        "foreground": "#83c746",
+        "fontStyle": ""
       }
     },
     {
       "scope": [
+        "comment",
         "comment.line.number-sign.elixir",
         "comment.documentation.heredoc.elixir"
       ],
@@ -215,13 +293,6 @@
       "scope": "header",
       "settings": {
         "foreground": "#000080"
-      }
-    },
-    {
-      "scope": "comment",
-      "settings": {
-        "foreground": "#51616D",
-        "fontStyle": "italic"
       }
     }
   ]

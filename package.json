@@ -1,6 +1,6 @@
 {
-  "name": "wg-theme",
-  "displayName": "wg-theme",
+  "name": "peepee-theme",
+  "displayName": "peepee-theme",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "wg-theme",
+        "label": "peepee-theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/wg-theme-color-theme.json"
+        "path": "./themes/peepee-theme-color-theme.json"
       }
     ]
   }
