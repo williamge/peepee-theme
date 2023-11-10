@@ -109,7 +109,6 @@
     {
       "scope": [
         "variable.other.constant.elixir",
-        "variable.other",
         "support.class.component"
       ],
       "settings": {
