@@ -85,6 +85,8 @@
     {
       "scope": [
         "entity.name.function-call.elixir",
+        "entity.name.function.call.local.elixir",
+        "entity.name.function.call.dot.elixir",
         "meta.function-call",
         "variable.other.property"
       ],
