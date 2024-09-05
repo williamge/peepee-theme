@@ -283,6 +283,7 @@
     {
       "scope": [
         "string.quoted.double",
+        "string.template.js",
         "punctuation.definition.list.begin.markdown"
       ],
       "settings": {
