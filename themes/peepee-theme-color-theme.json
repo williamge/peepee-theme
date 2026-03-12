@@ -17,7 +17,7 @@
     "editor.lineHighlightBackground": "#222222",
     "editorLineNumber.foreground": "#404040",
     "editorLineNumber.activeForeground": "#888888",
-    "editorCursor.foreground": "#dedede",
+    "editorCursor.foreground": "#dedede"
   },
   "configurationDefaults": {
     "elixir": {
@@ -206,7 +206,6 @@
       "settings": {
         "fontStyle": ""
       }
-
     },
     {
       "scope": "punctuation.definition.map.elixir",
