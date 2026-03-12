@@ -233,7 +233,11 @@
       }
     },
     {
-      "scope": ["punctuation.definition.string.begin.elixir", "punctuation.definition.string.end.elixir"],
+      "scope": [
+        "punctuation.definition.string.begin.elixir",
+        "punctuation.definition.string.end.elixir",
+        "punctuation.section.embedded.elixir"
+      ],
       "settings": {
         "foreground": "#83c746"
       }
