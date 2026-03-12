@@ -1,5 +1,10 @@
 {
   "permissions": {
-    "allow": ["Read(//private/tmp/vscode-expert/**)", "Bash(grep -i \"semantic\" syntaxes/*.json)", "Bash(npm run:*)"]
+    "allow": [
+      "Read(//private/tmp/vscode-expert/**)",
+      "Bash(grep -i \"semantic\" syntaxes/*.json)",
+      "Bash(npm run:*)",
+      "WebFetch(domain:zed.dev)"
+    ]
   }
 }
