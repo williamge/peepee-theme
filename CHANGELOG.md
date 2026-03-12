@@ -2,6 +2,17 @@
 
 All notable changes to the "peepee-theme" extension will be documented in this file.
 
+## [0.6.0]
+
+- Audit and remove dead/incorrect TextMate scopes
+- Yellow for numbers, orange for booleans/nil
+- Red for capture variables (`&1`, `&2`)
+- Add editor chrome UI colors (line highlight, line numbers, cursor)
+- Add bracket pair colorization with Selenized accent colors
+- Add Zed theme port
+- Add Prettier and markdownlint
+- Add CLAUDE.md and VSCode extension recommendations
+
 ## [0.5.0]
 
 - Colorize template strings
