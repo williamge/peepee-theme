@@ -86,11 +86,7 @@
       }
     },
     {
-      "scope": [
-        "entity.name.function.elixir",
-        "meta.definition.variable entity.name.function",
-        "entity.name.type"
-      ],
+      "scope": ["entity.name.function.elixir", "meta.definition.variable entity.name.function", "entity.name.type"],
       "settings": {
         "foreground": "#56d8c9",
         "fontStyle": "bold"
@@ -131,21 +127,14 @@
     },
     // Modules/Variables
     {
-      "scope": [
-        "variable.other.constant.elixir",
-        "support.class.component",
-        "string.unquoted.block.yaml"
-      ],
+      "scope": ["variable.other.constant.elixir", "support.class.component", "string.unquoted.block.yaml"],
       "settings": {
         "foreground": "#4f9cfe",
         "fontStyle": ""
       }
     },
     {
-      "scope": [
-        "variable.language.elixir",
-        "meta.definition.variable variable.other.constant"
-      ],
+      "scope": ["variable.language.elixir", "meta.definition.variable variable.other.constant"],
       "settings": {
         "foreground": "#368aeb",
         "fontStyle": "italic"
@@ -176,10 +165,7 @@
       }
     },
     {
-      "scope": [
-        "keyword.operator.assignment.elixir",
-        "keyword.operator.comparison"
-      ],
+      "scope": ["keyword.operator.assignment.elixir", "keyword.operator.comparison"],
       "settings": {
         "foreground": "#b891f5",
         "fontStyle": "bold"
@@ -252,10 +238,7 @@
     },
     // Attributes
     {
-      "scope": [
-        "variable.other.readwrite.module.elixir",
-        "string.unquoted.plain.out.yaml"
-      ],
+      "scope": ["variable.other.readwrite.module.elixir", "string.unquoted.plain.out.yaml"],
       "settings": {
         "foreground": "#eb6eb7",
         "fontStyle": ""
@@ -271,21 +254,14 @@
       }
     },
     {
-      "scope": [
-        "punctuation.definition.string.begin.elixir",
-        "punctuation.definition.string.end.elixir"
-      ],
+      "scope": ["punctuation.definition.string.begin.elixir", "punctuation.definition.string.end.elixir"],
       "settings": {
         "foreground": "#83c746",
         "fontStyle": ""
       }
     },
     {
-      "scope": [
-        "string.quoted.double",
-        "string.template.js",
-        "punctuation.definition.list.begin.markdown"
-      ],
+      "scope": ["string.quoted.double", "string.template.js", "punctuation.definition.list.begin.markdown"],
       "settings": {
         "foreground": "#70b433",
         "fontStyle": ""
@@ -299,11 +275,7 @@
       }
     },
     {
-      "scope": [
-        "comment",
-        "comment.line.number-sign.elixir",
-        "comment.documentation.heredoc.elixir"
-      ],
+      "scope": ["comment", "comment.line.number-sign.elixir", "comment.documentation.heredoc.elixir"],
       "settings": {
         "foreground": "#51616D",
         "fontStyle": ""

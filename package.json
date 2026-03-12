@@ -11,6 +11,15 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "format": "prettier --write \"**/*.json\" \"**/*.md\" --ignore-path .gitignore",
+    "lint": "markdownlint \"**/*.md\" --ignore node_modules --ignore-path .markdownlintignore",
+    "check": "prettier --check \"**/*.json\" \"**/*.md\" --ignore-path .gitignore && markdownlint \"**/*.md\" --ignore node_modules --ignore-path .markdownlintignore"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.43.0",
+    "prettier": "^3.5.3"
+  },
   "contributes": {
     "themes": [
       {
