@@ -109,12 +109,12 @@
       }
     },
     {
-      "scope": "parameter.variable.function.elixir",
+      "scope": "variable.other.anonymous.elixir",
       "settings": {
-        "foreground": "#dedede"
+        "foreground": "#fa5750"
       }
     },
-// Modules/Variables
+    // Modules/Variables
     {
       "scope": ["variable.other.constant.elixir", "support.class.component", "string.unquoted.block.yaml"],
       "settings": {
