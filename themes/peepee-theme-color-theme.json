@@ -17,7 +17,14 @@
     "editor.lineHighlightBackground": "#222222",
     "editorLineNumber.foreground": "#404040",
     "editorLineNumber.activeForeground": "#888888",
-    "editorCursor.foreground": "#dedede"
+    "editorCursor.foreground": "#dedede",
+    "editorBracketHighlight.foreground1": "#fa5750",
+    "editorBracketHighlight.foreground2": "#ed8649",
+    "editorBracketHighlight.foreground3": "#dbb32d",
+    "editorBracketHighlight.foreground4": "#75b938",
+    "editorBracketHighlight.foreground5": "#41c7b9",
+    "editorBracketHighlight.foreground6": "#af88eb",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
   },
   "configurationDefaults": {
     "elixir": {
