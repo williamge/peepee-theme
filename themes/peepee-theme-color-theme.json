@@ -34,8 +34,7 @@
     {
       "scope": "meta.function.definition.elixir keyword.control",
       "settings": {
-        "foreground": "#3b3b3b",
-        "fontStyle": ""
+        "foreground": "#3b3b3b"
       }
     },
     {
@@ -48,8 +47,7 @@
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#777777",
-        "fontStyle": ""
+        "foreground": "#777777"
       }
     },
     {
@@ -64,8 +62,7 @@
         "keyword.other.special-method.elixir",
         "keyword.control.import",
         "keyword.control.export",
-        "keyword.control.type",
-        "storage.type.type"
+        "keyword.control.type"
       ],
       "settings": {
         "foreground": "#eb6eb7"
@@ -101,7 +98,6 @@
     },
     {
       "scope": [
-        "entity.name.function-call.elixir",
         "entity.name.function.call.local.elixir",
         "entity.name.function.call.dot.elixir",
         "meta.function-call",
@@ -109,8 +105,7 @@
         "markup.inline.raw"
       ],
       "settings": {
-        "foreground": "#56d8c9",
-        "fontStyle": ""
+        "foreground": "#56d8c9"
       }
     },
     {
@@ -129,8 +124,7 @@
     {
       "scope": ["variable.other.constant.elixir", "support.class.component", "string.unquoted.block.yaml"],
       "settings": {
-        "foreground": "#4f9cfe",
-        "fontStyle": ""
+        "foreground": "#4f9cfe"
       }
     },
     {
@@ -151,8 +145,7 @@
     {
       "scope": "keyword.control.module.elixir",
       "settings": {
-        "foreground": "#EB6EB7",
-        "fontStyle": ""
+        "foreground": "#EB6EB7"
       }
     },
     // Symbols
@@ -160,8 +153,7 @@
       "scope": "keyword.operator",
       "settings": {
         // "foreground": "#a580e2",
-        "foreground": "#777777",
-        "fontStyle": ""
+        "foreground": "#777777"
       }
     },
     {
@@ -207,8 +199,7 @@
     {
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#e67f43",
-        "fontStyle": ""
+        "foreground": "#e67f43"
       }
     },
     {
@@ -223,6 +214,7 @@
       "settings": {
         "fontStyle": ""
       }
+
     },
     {
       "scope": "punctuation.definition.map.elixir",
@@ -240,8 +232,7 @@
     {
       "scope": ["variable.other.readwrite.module.elixir", "string.unquoted.plain.out.yaml"],
       "settings": {
-        "foreground": "#eb6eb7",
-        "fontStyle": ""
+        "foreground": "#eb6eb7"
       }
     },
     // Strings/comments
@@ -256,15 +247,13 @@
     {
       "scope": ["punctuation.definition.string.begin.elixir", "punctuation.definition.string.end.elixir"],
       "settings": {
-        "foreground": "#83c746",
-        "fontStyle": ""
+        "foreground": "#83c746"
       }
     },
     {
       "scope": ["string.quoted.double", "string.template.js", "punctuation.definition.list.begin.markdown"],
       "settings": {
-        "foreground": "#70b433",
-        "fontStyle": ""
+        "foreground": "#70b433"
       }
     },
     {
@@ -277,8 +266,7 @@
     {
       "scope": ["comment", "comment.line.number-sign.elixir", "comment.documentation.heredoc.elixir"],
       "settings": {
-        "foreground": "#51616D",
-        "fontStyle": ""
+        "foreground": "#51616D"
       }
     },
     // General
@@ -292,12 +280,6 @@
       "scope": "strong",
       "settings": {
         "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "header",
-      "settings": {
-        "foreground": "#000080"
       }
     }
   ]
