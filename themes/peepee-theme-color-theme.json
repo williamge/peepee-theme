@@ -191,12 +191,6 @@
       }
     },
     {
-      "scope": ["constant.language.boolean.true"],
-      "settings": {
-        "foreground": "#fa9153"
-      }
-    },
-    {
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#e67f43"
