@@ -1,4 +1,15 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.gitattributes
+.claude/**
+.expert/**
+.tool-versions
+.markdownlint.json
+.markdownlintignore
+.prettierrc
 vsc-extension-quickstart.md
+CLAUDE.md
+example.exs
+node_modules/**
+themes/peepee-theme-zed.json
