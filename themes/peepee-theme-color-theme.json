@@ -13,7 +13,11 @@
     "editorBracketMatch.background": "#249024",
     "editorIndentGuide.background1": "#404040",
     "list.dropBackground": "#383b3d",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "sideBarTitle.foreground": "#bbbbbb",
+    "editor.lineHighlightBackground": "#222222",
+    "editorLineNumber.foreground": "#404040",
+    "editorLineNumber.activeForeground": "#888888",
+    "editorCursor.foreground": "#dedede",
   },
   "configurationDefaults": {
     "elixir": {
